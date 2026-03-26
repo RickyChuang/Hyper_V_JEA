@@ -85,17 +85,20 @@ C:\Program Files\WindowsPowerShell\Modules\HyperVJEA
 ```
 ## 七、操作人員實際使用方式
 Enter‑PSSession ‑ComputerName HV‑NODE-01 ‑ConfigurationName HyperV‑Operator
-成功後提示字元：[HV‑NODE-01]: PS>
+* 成功後提示字元：[HV‑NODE-01]: PS>
+
 ## 八、稽核與紀錄（非常重要）
-所有 JEA 操作自動記錄在 C:\JEA‑Transcripts
-紀錄包含：使用者、時間、執行指令
-建議設定定期備份或匯入 SIEM
+* 所有 JEA 操作自動記錄在 C:\JEA‑Transcripts
+* 紀錄包含：使用者、時間、執行指令
+* 建議設定定期備份或匯入 SIEM
+  
 ## 九、部署與維運注意事項
-必須存在 .psm1，否則 RoleCapabilities 無法被載入
-.psrc 不可再包 RoleCapabilities
-操作員需重新登入，群組權限才會生效
-Endpoint ACL 變動後建議重啟 WinRM
+* 必須存在 .psm1，否則 RoleCapabilities 無法被載入
+* .psrc 不可再包 RoleCapabilities
+* 操作員需重新登入，群組權限才會生效
+* Endpoint ACL 變動後建議重啟 WinRM
+  
 ## 十、多主機與未來擴充（Phase 2）
-同一組 Script 可直接部署在所有 Hyper‑V 節點
-Failover Cluster / S2D 環境 不需修改權限模型
-僅需確保每一節點皆部署 JEA Endpoint
+* 同一組 Script 可直接部署在所有 Hyper‑V 節點
+* Failover Cluster / S2D 環境 不需修改權限模型
+* 僅需確保每一節點皆部署 JEA Endpoint

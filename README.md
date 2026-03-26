@@ -13,9 +13,9 @@
 ---
 ## 二、權限角色與責任分工
 ### 角色 A：Hyper‑V 管理員（Admin）
-* AD 群組：** GRP‑HyperV‑Admin
-* 本機群組：** Hyper‑V Administrators
-* 權限說明：** VM 建立 / 刪除 / 設定、vSwitch、Storage、Host 設定
+* AD 群組： GRP‑HyperV‑Admin
+* 本機群組： Hyper‑V Administrators
+* 權限說明： VM 建立 / 刪除 / 設定、vSwitch、Storage、Host 設定
 
 
 ### 角色 B：Hyper‑V 操作員（Operator，JEA）

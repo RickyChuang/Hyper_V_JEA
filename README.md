@@ -84,8 +84,11 @@ C:\Program Files\WindowsPowerShell\Modules\HyperVJEA
 }
 ```
 ## 七、操作人員實際使用方式
+```
 Enter‑PSSession ‑ComputerName HV‑NODE-01 ‑ConfigurationName HyperV‑Operator
-* 成功後提示字元：[HV‑NODE-01]: PS>
+```
+
+成功後提示字元：[HV‑NODE-01]: PS>
 
 ## 八、稽核與紀錄（非常重要）
 * 所有 JEA 操作自動記錄在 C:\JEA‑Transcripts
